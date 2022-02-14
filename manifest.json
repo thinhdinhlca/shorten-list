@@ -1,0 +1,21 @@
+{
+  "kind": "column",
+  "name": "Shorten a comma delimited list",
+  "description": "Shorten a comma delimited list to the form item A, item B, item C and X more",
+  "author": "Thinh Dinh <thinh@lowcode.agency>",
+  "params": [
+    {
+      "name": "list",
+      "displayName": "List of info",
+      "type": "string"
+    },
+    {
+      "name": "limit",
+      "displayName": "Amount of items to show",
+      "type": "number"
+    }
+  ],
+  "result": {
+      "type": "primitive"
+      }
+}
